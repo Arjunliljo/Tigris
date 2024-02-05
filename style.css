@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+section{
+    padding: 40px 0px;
+}
+p{
+    color: darkgray;
+    max-width: 640px;
+    margin-bottom: 1rem;
+}
+h1{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.container{
+    width: 100%;
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:0 1rem;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header{
+    padding: 1rem 0;
+    border-bottom: 1px solid rgb(221, 220, 220);
+}
+.logo-link{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+}
+.logo-link, h1, h2, h3, h4, h5, h6{
+    font-family: "Nora";
+    font-weight: 600;
+}
+nav{
+    display: none;
+}
+.button{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .5rem 1.5rem;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+.button-primery{
+    color: white;
+    background-color: black;
+}
+.button-secondary{
+    background-color: white;
+    color: gray;
+    border: 1px solid rgb(184, 184, 184);
+}
+
+@media only screen and (min-width: 600px) {
+
+    .button{
+        display: inline-block;
+        margin-right: 10px;
+    }    
+}
+@media only screen and (min-width: 768px) {
+    .menu-button{
+        display: none;
+    }
+    nav{
+        display:block;
+    }
+    nav ul{
+        display: flex;
+        gap: 1.5rem;
+        list-style: none;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: gray;
+    }
+}
+@media only screen and (min-width: 992px) {
+
+
+}
+@media only screen and (min-width: 1200px) {
+
+
+}
